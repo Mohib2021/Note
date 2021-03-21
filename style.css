@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.grab {
+  width: 1000px;
+  margin: auto;
+}
+nav {
+  height: 40px;
+  background-color: rgb(48, 39, 39);
+  color: white;
+}
+
+.list {
+  float: left;
+  padding: 10px;
+}
+ul li {
+  display: inline;
+  margin: 10px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+ul li:hover{
+  background-color: rgb(186, 126, 17);
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.serch {
+  float: right;
+  padding: 7px;
+}
+
+.src {
+ 
+  padding: 5px;
+  border: none;
+
+}
+.sbtn {
+  padding: 5px;
+  background-color: rgb(236, 79, 17);
+  color: white;
+  width: 100px;
+  border: none;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.sbtn:hover {
+  background-color: lime;
+}
+
+/* nav ends here */
+
+.magicnote {
+  margin-top: 20px;
+}
+
+.typenote {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.button {
+  background: blue;
+  color: white;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+}
+.fh1 {
+  color: rgb(0, 255, 13);
+  text-align: center;
+  background: blue;
+  padding: 5px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.fh2 {
+  background: blue;
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+strong {
+  color: rgb(6, 134, 12);
+}
+
+.card {
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.dbtn {
+  background: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.cardContainer {
+  margin-top: 10px;
+}

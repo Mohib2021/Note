@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-width:600px)" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- nav bar starts from here -->
+    <nav>
+      <div class="container">
+        <div class="list">
+          <ul>
+            <li style="margin-left: 0px">Home</li>
+            <li>Contact</li>
+            <li>About Me</li>
+            <li>More</li>
+          </ul>
+        </div>
+        <div class="serch">
+          <input
+            id="searchTxt"
+            class="src"
+            type="text"
+            placeholder="Serch Notes"
+          />
+          <input class="sbtn" type="button" name="" id="sBtn" value="Serch" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nav ends here -->
+
+    <!-- magic note stats from here -->
+
+    <section class="grab">
+      <div class="magicnote">
+        <h1 class="fh1">Welcome to magic notes</h1>
+        <div class="typenote">
+          <strong>Note Tittle</strong> <br />
+          <input
+            style="width: 100%; margin: 5px 0px; padding: 5px"
+            type="text"
+            name=""
+            id="tittle"
+            placeholder="Add tittle"
+          />
+          <textarea
+            id="noteText"
+            style="width: 100%"
+            name=""
+            id=""
+            placeholder="Type your note here"
+            rows="5"
+          ></textarea>
+          <button id="addBtn" class="button">Add Note</button>
+        </div>
+        <h2 class="fh2">Your Notes</h2>
+      </div>
+
+      <div id="notes" class="cardContainer"></div>
+    </section>
+
+    <!-- magic note ends here -->
+    <script src="app.js"></script>
+  </body>
+</html>

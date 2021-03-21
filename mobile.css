@@ -1,0 +1,61 @@
+.grab{
+    width: 100%;
+}
+
+nav{
+   height: 200px;
+}
+
+ul li{
+    display: block;
+}
+
+.list{
+    float: none;
+    text-align: center;
+    margin-top: -13px;
+}
+
+.serch{
+ 
+    float: none;
+    padding: 0px;
+    margin: auto;
+    width: 50%;
+  
+}
+
+.sbtn{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    border:none;
+    transition: .3s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.src{
+    display: block;
+    width: 100%;
+    margin-top: -13px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.card{
+    width: auto;
+    float: none;
+    margin-right: 10px;
+}
